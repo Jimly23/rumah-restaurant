@@ -10,18 +10,23 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 const foodItems = [
-  // { id: 1, title: 'Nasi Goreng', desc: 'Nasi Goreng Spesial', img: 'https://cdn1.site-media.eu/images/0/22838318/nasigoreng-DH8gBMBv7NkmTVLBXR__QA.png' },
-  { id: 2, title: 'Sate Madura', desc: 'Sate Madura Asli', img: 'https://cdn1.site-media.eu/images/0/22838315/slide1-YV_8fxB92W0bn0L0L6nXTA.png' },
+  { id: 1, title: 'Nasi Goreng', desc: 'Nasi Goreng Daging Spesial', img: '/assets/images/nasi-goreng.png' },
+  { id: 2, title: 'Sate Madura', desc: 'Sate Madura Asli', img: '/assets/images/sate-madura.jpg' },
   { id: 3, title: 'Gulai Kambing', desc: 'Gulai Kambing Gurih', img: 'https://cdn1.site-media.eu/images/0/22838307/slide4-qgu_U9k3dWPzSkiuqiDT1g.png' },
-  { id: 4, title: 'Rendang', desc: 'Rendang Daging Sapi', img: 'https://cdn1.site-media.eu/images/0/22838312/slide2-uDzgZj_iRVk2Tgacs0qhhw.png' },
+  // { id: 4, title: 'Rendang', desc: 'Rendang Daging Sapi', img: 'https://cdn1.site-media.eu/images/0/22838312/slide2-uDzgZj_iRVk2Tgacs0qhhw.png' },
+  { id: 5, title: 'Pisang Goreng', desc: 'Pisang Goreng Manis', img: '/assets/images/pisang-goreng.png' },
+  { id: 6, title: 'Rendang', desc: 'Rendang Daging Sapi', img: '/assets/images/rendang.png' },
+  { id: 7, title: 'Ikan Goreng Kicap', desc: 'Ikan Goreng Kicap Fresh', img: '/assets/images/ikan-goreng.png' },
+  { id: 8, title: 'Nasi Rawon Ayam', desc: 'Nasi Rawon Ayam Goreng', img: '/assets/images/nasi-rawon-ayam-goreng.jpg' },
+  { id: 9, title: 'Kangkong Sambal Belacan', desc: 'Kangkong Sambal Belacan', img: '/assets/images/kangkung.png' },
   // Tambahkan item lainnya sesuai kebutuhan
 ];
 
 const FoodGallery = () => {
   return (
-    <section className="py-20 bg-white w-full overflow-hidden font-sans">
+    <section className="py-20 bg-[#dad1c1] w-full overflow-hidden font-sans">
       <div className="max-w-7xl mx-auto px-4 mb-12 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Food Gallery</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-[#344349] mb-4">Food Gallery</h2>
         <p className="text-gray-500 max-w-xl mx-auto">Browse our customers&apos; favorite dishes.</p>
       </div>
 

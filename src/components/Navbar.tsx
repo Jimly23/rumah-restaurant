@@ -8,17 +8,18 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
-    { name: 'Events', href: '/events' },
-    { name: 'Menu', href: '/menu' },
-    { name: 'Delivery', href: '/delivery' },
-    { name: 'Testimonials', href: '/testimonials' },
-    { name: 'Contact', href: '/contact' },
+    { name: 'About', href: '/#about' },
+    { name: 'Gallery', href: '/#food-gallery' },
+    { name: 'Events', href: '/#events' },
+    { name: 'Menu', href: '/#menu' },
+    { name: 'Delivery', href: '/#delivery' },
+    { name: 'Testimonials', href: '/#testimonials' },
+    { name: 'Contact', href: '/#contact' },
   ];
 
   return (
     <nav className="fixed top-0 left-0 w-full py-6 px-8 z-50
-  bg-white/10 backdrop-blur-md border-b border-white/20 shadow-sm text-black/60">
+  bg-white/10 backdrop-blur-md border-b border-white/20 shadow-sm text-black/80">
 
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         

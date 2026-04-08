@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Page() {
   return (
-    <div className="relative w-full h-full px-20 bg-white">
+    <div className="relative w-full h-full md:px-[200px] py-10 bg-[#dad1c1]">
       <Image
         src="/assets/menu/menu1.jpg"
         alt="Menu 1"

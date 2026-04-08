@@ -49,8 +49,6 @@ const testimonials = [
 
   { id: 20, name: "Iman Hassein", role: "Customer", date: "28/01/2026", avatar: "https://i.pravatar.cc/150?u=20", text: "I’m sure this place will be awesome, InshaAllah." },
 
-  { id: 21, name: "Secret Shopper", role: "Customer", date: "30/01/2026", avatar: "https://i.pravatar.cc/150?u=21", text: "Extremely slow service. Not worth the wait." },
-
   { id: 22, name: "Mohammed Al Bloushi", role: "Customer", date: "01/02/2026", avatar: "https://i.pravatar.cc/150?u=22", text: "Amazing food and excellent service. Everything was fresh and well-balanced. Beautiful and relaxing atmosphere." },
 
   { id: 23, name: "Dinah Bahirah", role: "Customer", date: "01/02/2026", avatar: "https://i.pravatar.cc/150?u=23", text: "The food tastes like home cooking and reminds me of my mother. Will definitely come back." },
@@ -69,12 +67,12 @@ const Testimonials = () => {
   const totalSlides = testimonials.length;
 
   return (
-    <section className="bg-[#f0f0f0] py-20 px-5 md:px-10 font-sans overflow-hidden" id="testimonials">
+    <section className="bg-[#dad1c1] py-20 px-5 md:px-10 font-sans overflow-hidden" id="testimonials">
       <div className="max-w-7xl mx-auto">
         
         {/* Title Area */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#2b331f] mb-2">Testimonials</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-[#344349] mb-2">Testimonials</h2>
           <p className="text-gray-600">What our guests says on review.</p>
         </div>
 

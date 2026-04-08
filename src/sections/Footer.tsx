@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#647985] text-white py-12 px-6 md:px-12 border-t border-white/5">
+    <footer className="bg-[#dad1c1] text-[#344349] py-12 px-6 md:px-12 border-t border-white/5">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
         
         {/* Sisi Kiri: Navigasi Utama */}
@@ -41,12 +41,8 @@ const Footer = () => {
 
         {/* Sisi Kanan: Legal & Privacy */}
         <div className="flex justify-center md:justify-end gap-4 order-3">
-          <Link href="/legal" className="hover:underline underline-offset-4 decoration-[#c5a059]">
+          <Link href="/legal-notice" className="hover:underline underline-offset-4 decoration-[#c5a059]">
             Legal Notice
-          </Link>
-          <span className="">|</span>
-          <Link href="/privacy" className="hover:underline underline-offset-4 decoration-[#c5a059]">
-            Privacy Policy
           </Link>
         </div>
 

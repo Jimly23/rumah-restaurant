@@ -2,25 +2,17 @@ import Image from 'next/image';
 
 const AboutSection = () => {
   return (
-    <section className="relative bg-[#647985] w-full py-20 px-6 md:px-12 overflow-hidden" id="about">
-      {/* Background Image */}
-      {/* <Image
-        src="/assets/images/bg_full.png"
-        alt="About Background"
-        fill
-        className="object-cover -z-10 pointer-events-none rotate-180"
-      /> */}
-
+    <section className="relative bg-[#dad1c1] text-[#344349] w-full py-20 px-6 md:px-12 overflow-hidden" id="about">
 
       <div className="relative z-10 max-w-7xl mx-auto flex flex-col items-center">
 
-
-        <h2 className="text-3xl md:text-4xl font-bold text-white px-6 mb-10 tracking-widest uppercase">
+        {/* Heading */}
+        <h2 className="font-cinzel text-3xl md:text-4xl font-bold px-6 mb-10 tracking-widest uppercase">
           About
         </h2>
 
         {/* About Text Content */}
-        <div className="text-center text-gray-200 text-sm md:text-lg leading-relaxed space-y-6 max-w-7xl font-light">
+        <div className="font-playfair text-center text-[#344349] text-sm md:text-xl leading-relaxed space-y-6 max-w-7xl font-light normal-case">
           <p>
             In both Malay and Indonesian, &apos;Rumah&apos; means house or home, representing a symbol of warmth,
             safety, and family to us. At Rumah Restaurant, we serve an authentic culinary heritage passed

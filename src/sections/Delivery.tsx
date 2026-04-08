@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Delivery = () => {
   const deliveryPlatforms = [
@@ -10,7 +11,7 @@ const Delivery = () => {
       name: 'Keeta',
       description: 'Order via Keeta',
       logo: '/assets/images/keeta.png',
-      url: 'https://gofood.link/a/your-restaurant-id',
+      url: 'https://play.google.com/store/apps/details?id=com.sankuai.sailor.afooddelivery',
     },
   ];
 
@@ -19,14 +20,14 @@ const Delivery = () => {
   };
 
   return (
-    <section className="bg-[#647985] py-20 px-5 font-sans text-center" id="delivery">
+    <section className="bg-[#dad1c1] py-20 px-5 font-sans text-center" id="delivery">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
-        <h3 className="text-3xl md:text-4xl font-bold text-white mb-3">
+        <h3 className="text-3xl md:text-4xl font-bold text-[#344349] mb-3">
           Delivery
         </h3>
-        <p className="text-white mb-12">
-          Fast, reliable, and right to your doorstep
+        <p className="text-[#344349] mb-12">
+          We partner with KEETA for Fast, reliable, and right to your doorstep
         </p>
 
         {/* Delivery Grid */}
@@ -58,7 +59,7 @@ const Delivery = () => {
               </p>
 
               {/* Order Button */}
-              <span className="inline-block bg-[#2b331f] text-white py-2 px-7 rounded-full text-sm font-semibold group-hover:bg-[#647985] transition-colors duration-300">
+              <span className="inline-block bg-[#344349] text-white py-2 px-7 rounded-full text-sm font-semibold group-hover:bg-[#647985] transition-colors duration-300">
                 Order Now
               </span>
             </div>
