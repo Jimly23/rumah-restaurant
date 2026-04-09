@@ -53,10 +53,10 @@ const Events = () => {
     <section className="bg-[#dad1c1] py-24 px-4 font-sans overflow-hidden" id="events">
       {/* Header */}
       <div className="max-w-7xl mx-auto mb-16 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#344349] uppercase tracking-widest mb-4">
+        <h2 className="text-3xl md:text-5xl font-bold text-[#344349] uppercase tracking-widest mb-4">
           Events
         </h2>
-        <p className="text-gray-500 max-w-xl mx-auto">
+        <p className="text-gray-500 font-playfair text-2xl max-w-2xl mx-auto">
           Mark your calendar for our upcoming highlights.
         </p>
       </div>
@@ -100,13 +100,13 @@ const Events = () => {
                   {/* Mobile Arrow */}
                   <div className="absolute top-4 left-[-10px] w-0 h-0 border-y-[10px] border-y-transparent border-r-[10px] border-r-white md:hidden"></div>
 
-                  <span className="inline-block bg-[#344349] text-white text-[10px] font-bold px-3 py-1 rounded mb-3 uppercase tracking-wider">
+                  <span className="inline-block bg-[#344349] text-white font-bold px-3 py-1 rounded mb-3 uppercase tracking-wider">
                     {event.year}
                   </span>
-                  <h3 className="text-xl font-bold text-[#344349] mb-2 group-hover:text-[#B28C37] transition-colors">
+                  <h3 className="text-2xl font-bold text-[#344349] mb-2 group-hover:text-[#B28C37] transition-colors">
                     {event.title}
                   </h3>
-                  <p className="text-sm text-gray-500 italic leading-relaxed">
+                  <p className="font-playfair text-xl text-gray-500 italic leading-relaxed">
                     {event.description}
                   </p>
                 </div>

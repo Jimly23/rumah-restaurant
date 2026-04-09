@@ -6,11 +6,11 @@ export default function Page() {
       <div className="max-w-4xl mx-auto bg-white p-8 md:p-12 rounded-2xl shadow-lg">
 
         {/* Title */}
-        <h1 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-6">
+        <h1 className="text-3xl text-center md:text-4xl font-semibold text-gray-900 mb-6">
           Legal Notice
         </h1>
 
-        <p className="text-gray-500 mb-10 text-sm">
+        <p className="text-gray-500 mb-10 text-center font-playfair">
           Last Updated: 25th November 2025
         </p>
 
@@ -72,7 +72,7 @@ function Section({ title, children }: { title: string; children: React.ReactNode
       <h2 className="text-xl md:text-2xl font-semibold text-gray-800 mb-3">
         {title}
       </h2>
-      <div className="text-gray-600 leading-relaxed text-sm md:text-base">
+      <div className="text-gray-600 leading-relaxed font-playfair">
         {children}
       </div>
     </section>

@@ -35,11 +35,11 @@ const Menu = () => {
   return (
     <section className='bg-[#dad1c1] p-10'>
       <div className="max-w-7xl mx-auto mt-10 mb-16 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#344349] uppercase tracking-widest mb-4">
+        <h2 className="text-3xl md:text-5xl font-bold text-[#344349] uppercase tracking-widest mb-4">
           Menu
         </h2>
-        <p className="text-gray-500 max-w-xl mx-auto">
-          Discover the authentic taste of Rumah Restaurant with our curated selection of traditional Malay and Indonesian dishes.
+        <p className="text-gray-500 text-2xl font-playfair mx-auto">
+          Discover the authentic taste of Rumah Restaurant <br />with our curated selection of traditional Malay and Indonesian dishes.
         </p>
       </div>
       <div className="w-full flex flex-col items-center overflow-hidden" id="menu">
@@ -82,7 +82,7 @@ const Menu = () => {
         <div className='flex gap-2 justify-center items-center'>
           <Link
             href="/menu"
-            className="w-full max-w-[250px] py-3 px-8 bg-[#344349] text-white text-center rounded font-medium tracking-wide shadow-lg"
+            className="w-full max-w-[250px] py-3 px-8 bg-[#818e91] text-white text-center rounded font-semibold text-lg tracking-wide shadow-lg"
           >
             Traditional Meal
           </Link>

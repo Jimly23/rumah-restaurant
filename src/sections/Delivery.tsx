@@ -23,10 +23,10 @@ const Delivery = () => {
     <section className="bg-[#dad1c1] py-20 px-5 font-sans text-center" id="delivery">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
-        <h3 className="text-3xl md:text-4xl font-bold text-[#344349] mb-3">
+        <h3 className="text-3xl md:text-5xl font-bold text-[#344349] mb-3">
           Delivery
         </h3>
-        <p className="text-[#344349] mb-12">
+        <p className="text-[#344349] font-playfair text-2xl mb-12">
           We partner with KEETA for Fast, reliable, and right to your doorstep
         </p>
 
@@ -51,10 +51,10 @@ const Delivery = () => {
               </div>
 
               {/* Text Content */}
-              <h4 className="text-xl font-bold text-[#2b331f] mb-1">
+              <h4 className="text-3xl font-bold text-[#2b331f] mb-1">
                 {platform.name}
               </h4>
-              <p className="text-sm text-gray-400 mb-6">
+              <p className="text-lg text-black/80 font-semibold mb-6">
                 {platform.description}
               </p>
 

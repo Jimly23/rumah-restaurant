@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full py-6 px-8 z-50
-  bg-white/10 backdrop-blur-md border-b border-white/20 shadow-sm text-black/80">
+  bg-white/10 backdrop-blur-md border-b border-white/20 shadow-sm text-[#1c5302]">
 
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         
@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Navigation */}
-        <ul className="hidden md:flex space-x-6 lg:space-x-8 items-center">
+        <ul className="hidden text-lg md:flex space-x-6 lg:space-x-8 items-center">
           {navLinks.map((link) => (
             <li key={link.name}>
               <Link 
