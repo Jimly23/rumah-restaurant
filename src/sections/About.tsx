@@ -7,12 +7,12 @@ const AboutSection = () => {
       <div className="relative z-10 max-w-7xl mx-auto flex flex-col items-center">
 
         {/* Heading */}
-        <h2 className="font-cinzel text-[#1c5302] text-3xl md:text-4xl font-bold px-6 mb-10 tracking-widest uppercase">
+        <h2 className="font-cinzel text-[#344349] text-3xl md:text-4xl font-bold px-6 mb-10 tracking-widest uppercase">
           About
         </h2>
 
         {/* About Text Content */}
-        <div className="font-playfair text-center text-[#1c5302] text-sm md:text-xl leading-relaxed space-y-6 max-w-7xl font-light normal-case">
+        <div className="font-playfair text-center text-[#344349] text-sm md:text-xl leading-relaxed space-y-6 max-w-7xl font-light normal-case">
           <p>
             In both Malay and Indonesian, &apos;Rumah&apos; means house or home, representing a symbol of warmth,
             safety, and family to us. At Rumah Restaurant, we serve an authentic culinary heritage passed
